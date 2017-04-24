@@ -1,0 +1,101 @@
+/* Cubic Bezier Transition */
+.input-group-addon > i {
+  color: #999; }
+
+.input-group-addon {
+  background-color: #e5e5e5; }
+
+.btn.green:not(.btn-outline) {
+  background-color: #0362fd;
+  border-color: #0362fd; }
+
+.page-content-white .page-content .page-bar {
+  background: #eee; }
+
+.page-container-bg-solid .page-bar, .page-content-white .page-bar {
+  margin: 0; }
+
+.portlet.box > .portlet-body {
+  padding: 0; }
+
+.tabbable-custom > .nav-tabs > li.active {
+  border-top-color: #0d638f; }
+
+.tabbable-custom > .tab-content {
+  border-top-color: #0d638f; }
+
+.nav-tabs > li {
+  text-align: center;
+  min-width: 220px; }
+
+.thumbnail {
+  text-align: center; }
+  .thumbnail p {
+    margin-bottom: 0; }
+  .thumbnail .caption {
+    padding-bottom: 15px;
+    padding-top: 25px; }
+  .thumbnail h3 {
+    margin-top: 0; }
+
+.block-title {
+  margin-bottom: 5px; }
+
+@media (max-width: 1600px) and (min-width: 1170px) {
+  .col-semi-lg {
+    width: 50%; } }
+
+.green-btn {
+  background: #579344;
+  color: #fff; }
+  .green-btn:hover {
+    color: #fff;
+    background: #4d823c; }
+  .green-btn.btn-outline {
+    background-color: transparent;
+    border-color: #579344;
+    color: #579344; }
+    .green-btn.btn-outline:hover {
+      background: #579344;
+      color: #fff; }
+
+.search-form {
+  margin-bottom: 20px;
+  overflow: hidden; }
+  .search-form .search-input {
+    width: calc(100% - 93px);
+    float: left;
+    margin-left: 10px; }
+  .search-form button[type="submit"] {
+    float: left;
+    margin-right: 10px; }
+
+::-webkit-input-placeholder {
+  color: #989898; }
+
+::-moz-placeholder {
+  color: #989898; }
+
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #989898; }
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #989898; }
+
+select.form-control {
+  color: #989898; }
+
+.page-sidebar .page-sidebar-menu > li.active > .nav-link {
+  position: relative; }
+  .page-sidebar .page-sidebar-menu > li.active > .nav-link::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 5px;
+    bottom: 5px;
+    border: 15px solid transparent;
+    border-right: 15px solid #fff; }
+  .page-sidebar .page-sidebar-menu > li.active > .nav-link .arrow {
+    display: none; }
